@@ -7,7 +7,7 @@ A React-based frontend application for video annotation and project management. 
 ### Prerequisites
 
 - Node.js 18+ and npm
-- Backend server running (see [backend README](../video-poc-backend/README.md))
+- Backend server running
 
 ### Installation
 
@@ -16,7 +16,7 @@ A React-based frontend application for video annotation and project management. 
 npm install
 
 # Create .env file
-echo "VITE_API_BASE_URL=http://localhost:55000" > .env
+echo "VITE_API_BASE_URL=http://localhost:3000" > .env
 
 # Start development server
 npm run dev
@@ -51,7 +51,7 @@ src/
 Create a `.env` file in the root directory:
 
 ```env
-VITE_API_BASE_URL=http://localhost:55000
+VITE_API_BASE_URL=http://localhost:3000
 ```
 
 ## 📝 Available Scripts
@@ -137,7 +137,3 @@ npm run dev -- --port 3002
 - Verify backend is running
 - Check `VITE_API_BASE_URL` in `.env`
 - Verify CORS is enabled on backend
-
-## 📄 License
-
-Private project - All rights reserved
